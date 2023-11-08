@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ordertable">
+
+    <ListView
+        android:id="@+id/lvTable"
+        android:layout_width="match_parent"
+        android:layout_height="550dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50pt"
+        android:layout_marginTop="5pt"
+        android:background="#EDEFF1"
+        android:backgroundTint="#D5D6D6"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnHome"
+            android:layout_width="40pt"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5pt"
+            app:srcCompat="@drawable/home"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/btnMenu"
+            android:layout_width="40pt"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20pt"
+            app:srcCompat="@drawable/menu"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/btnSetting"
+            android:layout_width="40pt"
+            android:layout_marginLeft="20pt"
+            android:layout_marginRight="5pt"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/setting"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </LinearLayout>
+</LinearLayout>

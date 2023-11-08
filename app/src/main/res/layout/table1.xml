@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/reactiveGuide"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:padding="10dp" />
+    <TextView
+        android:layout_toRightOf="@+id/imgView"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtnamee"
+        android:text="Name"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="22sp"
+        android:textColor="#003cff"
+        android:layout_below="@+id/txtnamee"
+        android:layout_toRightOf="@+id/imgView"
+        android:id="@+id/txtpricee"
+        android:text="Mo ta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
